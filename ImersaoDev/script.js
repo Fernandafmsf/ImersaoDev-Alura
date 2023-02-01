@@ -15,3 +15,5 @@ valorEmBitcoin=valorEmBitcoin.toFixed(2);
 
 document.querySelector(".resultadoEmBitcoin").innerHTML= 
 "Olá, " + nome + "! O valor US$" +valorEmDolar+ " em real é igual a: R$"+ valorEmReal+ " e em bitcoin é igual a: " + +valorEmBitcoin;
+
+alert("Hello");
