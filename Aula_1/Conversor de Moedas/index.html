@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </div>
+
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+       
+
+        <div class="form-conversor">
+         
+
+          <form>
+            <label for="nome"> Qual o seu nome?</label>
+            <input type="text" id="nome">
+            <br>
+
+            <label for="valorEmDolar">Digite um valor em dólar </label>
+            <input type="text" id="valorEmDolar" name="valorEmDolar">
+            <br>
+
+          </form>
+          <br>
+
+          <button onclick="calculate()">Calcular</button>
+          <br>
+
+          <p class="resultado"></p>
+        
+        </div>
+        
+        </div>
+
+
+        
+
+
+</body>
+<script src="./script.js"></script>
+</html>
