@@ -12,7 +12,7 @@ while(chute!=numeroAleatorio){
     } else if (chute<numeroAleatorio){
         alert("O numero é maior")
     }
-    numeroDeTentativas=numeroDeTentativas+1;
+    numeroDeTentativas++;
 
 } 
 
